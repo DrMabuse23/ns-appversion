@@ -1,0 +1,28 @@
+{
+  "name": "@4you-free/ns-appversion",
+  "version": "0.0.1-alpha.1",
+  "description": "Return the app version",
+  "main": "appversion.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.1.0",
+      "android": "1.1.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrMabuse23/ns-appversion.git"
+  },
+  "keywords": [
+    "NativeScript"
+  ],
+  "author": "Pascal Brewing <drmabuse@posteo.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrMabuse23/ns-appversion/issues"
+  },
+  "devDependencies": {
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  }
+}
