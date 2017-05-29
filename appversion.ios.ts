@@ -1,5 +1,5 @@
 import application = require("application");
- 
+
 declare var NSBundle: any;
  
 export class AppVersion {
