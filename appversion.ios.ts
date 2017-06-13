@@ -1,9 +1,8 @@
-import application = require("application");
+import * as app from "tns-core-modules/application";
 
 declare var NSBundle: any;
- 
+
 export class AppVersion {
- 
     public constructor() { }
  
     public getApplicationVersion(): string {

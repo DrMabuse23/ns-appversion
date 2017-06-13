@@ -1,12 +1,16 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
         "target": "es5",
-        "noImplicitAny": false,
-        "sourceMap": false,
-        "declaration": true,
-        "declarationDir": "lib",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true
-    }
+        "module": "commonjs",
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true
+    },
+    "files": [
+        "node_modules/tns-core-modules/tns-core-modules.d.ts",
+        "appversion.android.ts",
+        "appversion.ios.ts"
+    ],
+    "compileOnSave": false
 }

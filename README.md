@@ -4,7 +4,9 @@
 ```js
 import * as AppVersion from `ns-appversion`;
 class MyClass{
-  constructor(private appVersion: AppVersion) {
+  private appVersion: AppVersion;
+  constructor() {
+    this.appVersion = new AppVersion();
     console.log(this.appVersion.getApplicationVersion());
   }
 }
